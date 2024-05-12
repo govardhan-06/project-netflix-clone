@@ -1,0 +1,27 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.poster{
+    cursor: pointer;
+    max-height: 250px;
+    margin: 10px;
+}
+
+.small-posters{
+    cursor: pointer;
+    max-height: 100px;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+} /*To make the scrollbar invisible*/
+
+.poster:hover{
+    transform: scale(1.1);
+}
